@@ -3,9 +3,11 @@ import exploreItems from "./exploreItems";
 
 function Sidebar() {
 	return (
-		<div>
+		<div className="flex-shrink">
 			<h2 className="font-bold text-2xl mx-4">Explore</h2>
-			<div className="grid grid-cols-3 mx-4 my-2">
+			<div
+				className="grid grid-cols-3 mx-2 my-2 sm:grid-cols-none 
+							sm:mt-8">
 				{exploreItems.map((exploreItem) => (
 					<SidebarItem
 						name={exploreItem.name}
