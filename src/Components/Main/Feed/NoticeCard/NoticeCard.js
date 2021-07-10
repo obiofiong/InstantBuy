@@ -20,8 +20,8 @@ function NoticeCard({ title, img, direction, bg }) {
 			<div className="mx-3 ">
 				{" "}
 				<img
-					className="max-h-40
-                                sm:max-h-72"
+					className="max-h-40 w-44
+                                sm:max-h-64 sm:w-auto"
 					src={img}
 					alt="img"
 				/>

@@ -3,8 +3,8 @@ import { ShoppingBagIcon } from "@heroicons/react/solid";
 
 function Product() {
 	return (
-		<div className=" w-36 h-auto px-3 py-2 rounded-xl border bg-white mx-2 hover:shadow-md group">
-			<div className=" cursor-pointer py-1">
+		<div className="w-36 h-auto px-3 py-2 rounded-xl border bg-white mx-2 hover:shadow-md group">
+			<div className="w-max cursor-pointer py-1">
 				<img
 					className="w-32 mx-auto"
 					// src={require("../../../../Utils/FakeStore/1.jpg")}
