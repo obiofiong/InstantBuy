@@ -6,7 +6,7 @@ import SearchBar from "./SearchBar";
 
 function Navbar() {
 	return (
-		<div className="bg-blue-100 px-4 pt-4 pb-6 sm:pt-6 sm:pb-3">
+		<div className="w-screen bg-blue-100 px-4 pt-4 pb-6 sm:pt-6 sm:pb-3">
 			<div className="flex items-center justify-between mb-3 sm:justify-evenly">
 				<div className="flex items-center">
 					<MenuAlt2Icon className="h-10 text-blue-300 sm:hidden" />

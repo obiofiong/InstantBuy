@@ -3,7 +3,7 @@ import Sidebar from "./Sidebar/Sidebar";
 
 function Main() {
 	return (
-		<div className="flex flex-col px-3 py-8 sm:flex-row">
+		<div className=" px-3 py-8 sm:grid sm:grid-cols-6">
 			<Sidebar />
 			<Feed />
 		</div>

@@ -1,33 +1,29 @@
 import Sneakers from "../../../../img/Featured/sneakers.png";
 
-function NoticeCard() {
+function NoticeCard({ title, img, direction, bg }) {
+	const color = bg;
 	return (
 		<div
-			className="w-auto h-28 p-2 bg-blue-300 rounded-2xl flex items-center justify-between flex-
-                        sm:h-48 sm:p-4 
-                        md:h-56
-                        hover:h-52 hover:bg-blue-400 hover:shadow-xl
-
-        ">
+			className={
+				direction == "main"
+					? "w-auto h-28 p-2 bg-blue-300 rounded-2xl flex items-center justify-between sm:h-48 sm:p-4  md:h-56    hover:bg-blue-400 hover:shadow-xl"
+					: "w-auto h-28 p-2 bg-blue-300 rounded-2xl flex flex-row-reverse items-center justify-between sm:h-48 sm:p-4  md:h-56    hover:bg-blue-400 hover:shadow-xl"
+			}>
 			<div
-				className="text-wrap text-sm text-white font-bold ml-2 w-2/5
-                            
+				className="text-wrap text-sm text-white font-bold ml-2 w-2/5   
                             sm:ml-8 sm:text-xl
                             md:text-3xl
             ">
-				Featured Sale for Today
+				{title}
 				<span className=""></span>
 			</div>
-			<div
-				className="mx-3 
-                            xs:mx-5
-                            sm:mr-10">
+			<div className="mx-3 ">
 				{" "}
 				<img
-					className="max-h-44
+					className="max-h-40
                                 sm:max-h-72"
-					src={Sneakers}
-					alt="sneakers"
+					src={img}
+					alt="img"
 				/>
 			</div>
 		</div>
