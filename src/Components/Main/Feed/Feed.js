@@ -14,15 +14,18 @@ function Feed() {
 				title="Featured Sale for Today"
 				img={Sneakers}
 				direction="main"
-				bg="bg-blue-500"
+				bg="bg-blue"
+				bgLevel={300}
 			/>
 			<Products />
 			<NoticeCard
 				title="Flash Sale for Today"
 				img={Laptop}
 				direction="opp"
-				bg="bg-purple-300"
+				bg="bg-purple"
+				bgLevel={400}
 			/>
+			<Products />
 		</div>
 	);
 }

@@ -3,7 +3,7 @@ import exploreItems from "./exploreItems";
 
 function Sidebar() {
 	return (
-		<div className="w- col-start-1 col-end-2">
+		<div className="h-full static col-span-1">
 			<h2 className="font-bold text-2xl mx-4">Explore</h2>
 			<div
 				className="grid grid-cols-3 mx-2 my-2 sm:grid-cols-none 
