@@ -1,5 +1,3 @@
-import Sneakers from "../../../../img/Featured/sneakers.png";
-
 function NoticeCard({ title, img, direction, bg, bgLevel }) {
 	return (
 		<div
@@ -20,7 +18,7 @@ function NoticeCard({ title, img, direction, bg, bgLevel }) {
 				{title}
 				<span className=""></span>
 			</div>
-			<div className="mx-3 ">
+			<div className="mx-3">
 				{" "}
 				<img
 					className="max-h-40 w-44 transition duration-400 ease-in-out transform hover:scale-110 

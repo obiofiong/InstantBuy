@@ -14,6 +14,7 @@ function Navbar() {
 
 	return (
 		<nav className="relative w-full bg-blue-100 px-4 pt-4 pb-6 sm:pt-6 sm:pb-3">
+			<div className=""></div>
 			{isMobileNavOpen && (
 				<MobileNav handleMobileNavToggle={handleMobileNavToggle} />
 			)}
@@ -23,7 +24,9 @@ function Navbar() {
 						onClick={handleMobileNavToggle}
 						className="h-10 text-blue-300 sm:hidden hover:text-white"
 					/>
-					<span className="font-bold mx-2">INSTANTBUY</span>
+					<span className="font-bold mx-2 transform hover:scale-110">
+						INSTANTBUY
+					</span>
 				</div>
 				{/* Search bar on desktop */}
 				<div className=" hidden sm:block flex-grow mx-6">

@@ -2,7 +2,7 @@ import { XIcon } from "@heroicons/react/solid";
 
 function MobileNav({ handleMobileNavToggle }) {
 	return (
-		<div className="absolute w-full left-0 top-0 bg-blue-200 sm:hidden text-gray-800">
+		<div className="absolute w-full left-0 top-0 bg-blue-200 sm:hidden text-gray-600 transition duration-400 ease-in-out  ">
 			<XIcon
 				onClick={handleMobileNavToggle}
 				className="h-10 ml-4 mt-4 text-blue-300 cursor-pointer hover:text-white"
