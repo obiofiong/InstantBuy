@@ -12,6 +12,7 @@ function Product() {
 				<img
 					className="w-32 mx-auto"
 					// src={require("../../../../Utils/FakeStore/1.jpg")}
+					alt="img"
 					src={item}
 				/>
 			</div>

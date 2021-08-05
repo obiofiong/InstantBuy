@@ -8,7 +8,7 @@ function App() {
 			<Navbar />
 			<Switch>
 				{/* <Route exact path="/"></Route> */}
-				<Route exact path="/">
+				<Route path="/">
 					<Main />
 				</Route>
 			</Switch>
