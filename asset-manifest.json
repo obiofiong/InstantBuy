@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/InstantBuy/static/css/main.3b97bdf8.chunk.css",
+    "main.js": "/InstantBuy/static/js/main.a1c4bbc7.chunk.js",
+    "main.js.map": "/InstantBuy/static/js/main.a1c4bbc7.chunk.js.map",
+    "runtime-main.js": "/InstantBuy/static/js/runtime-main.af994df2.js",
+    "runtime-main.js.map": "/InstantBuy/static/js/runtime-main.af994df2.js.map",
+    "static/js/2.65859d50.chunk.js": "/InstantBuy/static/js/2.65859d50.chunk.js",
+    "static/js/2.65859d50.chunk.js.map": "/InstantBuy/static/js/2.65859d50.chunk.js.map",
+    "static/js/3.9cdb42e8.chunk.js": "/InstantBuy/static/js/3.9cdb42e8.chunk.js",
+    "static/js/3.9cdb42e8.chunk.js.map": "/InstantBuy/static/js/3.9cdb42e8.chunk.js.map",
+    "index.html": "/InstantBuy/index.html",
+    "static/css/main.3b97bdf8.chunk.css.map": "/InstantBuy/static/css/main.3b97bdf8.chunk.css.map",
+    "static/js/2.65859d50.chunk.js.LICENSE.txt": "/InstantBuy/static/js/2.65859d50.chunk.js.LICENSE.txt",
+    "static/media/1.474294d3.jpg": "/InstantBuy/static/media/1.474294d3.jpg",
+    "static/media/laptop.1e9c66bf.png": "/InstantBuy/static/media/laptop.1e9c66bf.png",
+    "static/media/sneakers.0547a064.png": "/InstantBuy/static/media/sneakers.0547a064.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af994df2.js",
+    "static/js/2.65859d50.chunk.js",
+    "static/css/main.3b97bdf8.chunk.css",
+    "static/js/main.a1c4bbc7.chunk.js"
+  ]
+}
