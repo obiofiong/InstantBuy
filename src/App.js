@@ -1,6 +1,6 @@
 import Main from "./Components/Main/Main";
 import Navbar from "./Components/Navbar/Navbar";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
 	return (
