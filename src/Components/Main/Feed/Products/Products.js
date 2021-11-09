@@ -1,5 +1,5 @@
 import Product from "./Product";
-import productsList from "../../../../Utils/FakeStore/products.js";
+// import productsList from "../../../../Utils/FakeStore/products.js";
 
 function Products() {
 	return (
