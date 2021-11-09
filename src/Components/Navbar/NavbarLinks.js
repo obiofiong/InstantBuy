@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 function NavbarLinks() {
 	return (
 		<div className="hidden sm:block text-sm font-bold mx-6">
